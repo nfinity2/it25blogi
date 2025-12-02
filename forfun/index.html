@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu veebisait</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="html ">
+    <meta name="author" content="A.Allas + J.Teller">
+<nav class="navbar" style="display:flex; align-items:center; gap:30px; padding:20px 40px;">
+    <!-- Logo -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="../img/ak47.jpg" alt="Minu Logo" style="height:20px;">
+        </a>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="nav-links" style="display:flex; gap:25px;">
+        <a href="#features">Funktsioonid</a>
+        <a href="#gallery">Galerii</a>
+        <a href="#contact">Kontakt</a>
+    </div>
+</nav>
+
+    <section class="hero">
+
+        <div class="left">
+            <h1>Meie armastus <br>Ühes kohas.</h1>
+            <p>Pane oma IT aju tööle ja tule <strong>HKHK!.</strong></p>
+
+            <div class="buttons-container">
+            <div class="button-row">
+            <a class="btn primary" href="https://hkhk.edu.ee" target="_blank">HKHK Koduleht</a>
+            <a class="btn secondary" href="Armastuskiri.html">Meie armastuskiri Mariole.</a>
+            </div>
+            <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSeC4iXN9PlO6tnQVOxIfdJe3HsFjbFMtiKv-PRJ3viSYBeRbw/viewform?usp=header">Kas oled piisavalt hea et meiega CSi mängida?</a>
+            </div>
+        </div>
+
+        <div class="right">
+    <div class="preview-card">
+
+        <!-- Koolist pildid -->
+        <div class="column">
+            <span class="label">Kuningast pildid</span>
+            <img src="../img/mm.jpg" alt="mm">
+            <img src="../img/mmf.jpg" alt="mm">
+        </div>
+
+        <!-- Anri Maidlast pildid -->
+        <div class="column">
+            <span class="label">Anri Maidla</span>
+
+            <!-- maidla123 -->
+            <img 
+                src="../img/maidla123.jpg" 
+                alt="maidla123" 
+                width="300"
+                onerror="this.src='https://via.placeholder.com/300x200?text=Image+Not+Found';">
+        </div>
+
+    </div>
+</div>
+
+    </section>
+<section id="features" class="section" style="text-align:center;">
+    <h2 style="font-size:48px; margin-bottom:40px;">🛠️ Oskused ja tööriistad</h2>
+
+    <div class="skills-container" style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap;">
+
+        <!-- A. Allas -->
+        <div class="skill-card" style="background:#1b1b1b; padding:25px; border-radius:12px; min-width:300px; text-align:left;">
+            <h3 style="margin-bottom:15px;">💻 A. Allas</h3>
+            <p><strong>Programmeerimine ja skriptimine:</strong> Python, PowerShell, Bash</p>
+            <p><strong>Andmebaasid:</strong> MySQL</p>
+            <p><strong>🎨 Disain ja multimeedia:</strong> Adobe Photoshop, Premiere Pro, AfterEffects, SolidEdge</p>
+            <p><strong>🌐 Veebiarendus:</strong> HTML5, CSS3, WordPress</p>
+            <p><strong>⚙️ Muud:</strong> Linux (Ubuntu, Debian, Arch Linux), Robootika ja mikrokontrollerid,<br>Counter-Strike 1.6 Natuke parem movement player.</p>
+        </div>
+
+        <!-- J. Teller -->
+        <div class="skill-card" style="background:#1b1b1b; padding:25px; border-radius:12px; min-width:300px; text-align:left;">
+            <h3 style="margin-bottom:15px;">💻 J. Teller</h3>
+            <p><strong>Programmeerimine ja skriptimine:</strong> Python, Godot, PowerShell, Bash</p>
+            <p><strong>Andmebaasid:</strong> MySQL</p>
+            <p><strong>🎨 Disain ja multimeedia:</strong> Adobe Photoshop, DaVinci Resolve,<br> DaVinci Resolve Fusion, SolidEdge, Gimp</p>
+            <p><strong>🌐 Veebiarendus:</strong> HTML5, CSS3, WordPress</p>
+            <p><strong>⚙️ Muud:</strong> Linux (Ubuntu, Debian), Robootika ja mikrokontrollerid, <br>Counter-Strike 1.6 Movement player.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="gallery" class="section" style="text-align:center;">
+    <h2>Galerii</h2>
+    <p>Mõned eelvaatepildid.</p>
+    <!-- Koolist pildid -->
+<div class="column" style="display:flex; flex-direction:column; gap:20px; align-items:center;">
+    <span class="label" style="width:100%; text-align:center; display:block; margin-bottom:15px;">IT-25 pildid</span>
+
+    <!-- First row: 2 images -->
+    <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+        <img src="../img/IMG_7663.jpg" alt="Kuningast pilt 1" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/IMG_7662.jpg" alt="Kuningast pilt 2" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+    </div>
+
+    <!-- Second row: remaining images -->
+    <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+        <img src="../img/intsupintsu.jpg" alt="Kuningast pilt 3" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/kevinselfar.jpg" alt="Kuningast pilt 4" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/bbp.jpg" alt="Kuningast pilt 5" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/317a.jpg" alt="Kuningast pilt 6" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/pikachu..jpg" alt="Kuningast pilt 8" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/IMG_7669.jpg" alt="Kuningast pilt 8" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        <img src="../img/IMG_7670.jpg" alt="Kuningast pilt 8" style="width:250px; height:250px; object-fit:cover; border-radius:8px;">
+        
+    </div>
+</div>
+
+
+
+</section>
+
+<section id="contact" class="section" style="text-align:center;">
+    <h2 class="section-title">Kontakt</h2>
+    <p class="section-subtitle">Võta meiega ühendust läbi allolevate kontaktide</p>
+
+    <!-- Email Row -->
+    <div class="contact-row">
+        <div class="contact-card">
+            <h3>A. Allas</h3>
+            <p>
+                <a href="mailto:aallas@hkhk.edu.ee">📧 aallas@hkhk.edu.ee</a>
+            </p>
+        </div>
+        <div class="contact-card">
+            <h3>J. Teller</h3>
+            <p>
+                <a href="mailto:jteller@hkhk.edu.ee">📧 jteller@hkhk.edu.ee</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Steam Row -->
+    <div class="contact-row">
+        <div class="contact-card">
+            <h3>Steam – A. Allas</h3>
+            <p>
+                <a href="https://steamcommunity.com/profiles/76561199230277697" target="_blank">🎮 Steam Profiil</a>
+            </p>
+        </div>
+        <div class="contact-card">
+            <h3>Steam – J. Teller</h3>
+            <p>
+                <a href="https://steamcommunity.com/profiles/76561198868870368" target="_blank">🎮 Steam Profiil</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="section" style="background:#14181d; padding:40px 80px; color:white;">
+    <div class="footer-bottom" style="margin-top:30px; text-align:center; font-size:14px; color:#aaa;">
+        <p>Copyright © 2025 A.Allas + J.Teller</p>
+    </div>
+</footer>
+
+</body>
+</html>

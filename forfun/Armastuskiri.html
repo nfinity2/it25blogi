@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armastuskiri</title>
+    <!-- Joonas 02.12.25 -->
+<style>
+/* Taust */
+html, body {
+    height: 100%; /* ensures body fills viewport */
+    margin: 0;    
+}
+
+body {
+    background-image: url("/img/longest-ocean-range-meta.jpg");
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+}
+
+/* Teksti kasti blur ja paigutus */
+.blur-box {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 40px;
+
+    width: 60%; 
+    max-width: 900px;
+    margin: 80px auto;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Tagasi esilehele nupp */
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+    z-index: 9999;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+</style>
+
+</head>
+<body> 
+<div class="blur-box">
+    <h1>Meie Armastuskiri Mario Metheinale</h1>
+    <p>Me oleme kõige paremad õpilased ja meil on au, et teie kontrollite meie töösi, sest te ei eksi mitte kunagi.<br> Te olete meie inspiratsiooniks ühel päeval teie moodi olla, aga mitte kunagi ei saa me täpselt teie moodi olla, kuna olete maailma parim kontrollija ja igal teemal seotud IT-ga olete te parim. - Armin ja Joonas</p>
+</div>
+<a href="index.html" class="back-button">← Tagasi esilehele</a>
+
+</body>
+</html>
